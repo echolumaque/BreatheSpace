@@ -1,0 +1,426 @@
+{
+  "music": [
+    {
+      "id": "focus_1",
+      "title": "Deep Concentration",
+      "duration": 720,
+      "genre": "Focus",
+      "imageUrl": "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg",
+      "description": "Enhanced focus with minimal distractions"
+    },
+    {
+      "id": "focus_2",
+      "title": "Study Flow",
+      "duration": 900,
+      "genre": "Focus",
+      "imageUrl": "https://images.pexels.com/photos/6238297/pexels-photo-6238297.jpeg",
+      "description": "Perfect background for deep work sessions"
+    },
+    {
+      "id": "focus_3",
+      "title": "Clarity Mind",
+      "duration": 840,
+      "genre": "Focus",
+      "imageUrl": "https://images.pexels.com/photos/3756766/pexels-photo-3756766.jpeg",
+      "description": "Crystal clear thinking with ambient sounds"
+    },
+    {
+      "id": "focus_4",
+      "title": "Productivity Zone",
+      "duration": 780,
+      "genre": "Focus",
+      "imageUrl": "https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg",
+      "description": "Enter the flow state with focused sounds"
+    },
+    {
+      "id": "sleep_1",
+      "title": "Dreamy Night",
+      "duration": 1200,
+      "genre": "Sleep",
+      "imageUrl": "https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg",
+      "description": "Gentle lullaby for peaceful sleep"
+    },
+    {
+      "id": "sleep_2",
+      "title": "Night Whispers",
+      "duration": 900,
+      "genre": "Sleep",
+      "imageUrl": "https://images.pexels.com/photos/3771836/pexels-photo-3771836.jpeg",
+      "description": "Soft whispers to guide you to sleep"
+    },
+    {
+      "id": "sleep_3",
+      "title": "Starlit Dreams",
+      "duration": 1080,
+      "genre": "Sleep",
+      "imageUrl": "https://images.pexels.com/photos/2670898/pexels-photo-2670898.jpeg",
+      "description": "Fall asleep under a blanket of stars"
+    },
+    {
+      "id": "sleep_4",
+      "title": "Deep Slumber",
+      "duration": 960,
+      "genre": "Sleep",
+      "imageUrl": "https://images.pexels.com/photos/3662438/pexels-photo-3662438.jpeg",
+      "description": "Perfect for deep, restful sleep"
+    },
+    {
+      "id": "meditation_1",
+      "title": "Inner Peace",
+      "duration": 600,
+      "genre": "Meditation",
+      "imageUrl": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
+      "description": "Journey to your inner sanctuary"
+    },
+    {
+      "id": "meditation_2",
+      "title": "Zen Garden",
+      "duration": 720,
+      "genre": "Meditation",
+      "imageUrl": "https://images.pexels.com/photos/327482/pexels-photo-327482.jpeg",
+      "description": "Find peace in simplicity"
+    },
+    {
+      "id": "meditation_3",
+      "title": "Mindful Moments",
+      "duration": 840,
+      "genre": "Meditation",
+      "imageUrl": "https://images.pexels.com/photos/321576/pexels-photo-321576.jpeg",
+      "description": "Present moment awareness"
+    },
+    {
+      "id": "meditation_4",
+      "title": "Sacred Space",
+      "duration": 900,
+      "genre": "Meditation",
+      "imageUrl": "https://images.pexels.com/photos/4325478/pexels-photo-4325478.jpeg",
+      "description": "Create your sacred meditation space"
+    },
+    {
+      "id": "stress_1",
+      "title": "Stress Release",
+      "duration": 780,
+      "genre": "Stress",
+      "imageUrl": "https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg",
+      "description": "Let go of daily stress"
+    },
+    {
+      "id": "stress_2",
+      "title": "Calm Waters",
+      "duration": 840,
+      "genre": "Stress",
+      "imageUrl": "https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg",
+      "description": "Float away your worries"
+    },
+    {
+      "id": "stress_3",
+      "title": "Peaceful Mind",
+      "duration": 720,
+      "genre": "Stress",
+      "imageUrl": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg",
+      "description": "Find your inner peace"
+    },
+    {
+      "id": "stress_4",
+      "title": "Tranquil Moments",
+      "duration": 900,
+      "genre": "Stress",
+      "imageUrl": "https://images.pexels.com/photos/1051449/pexels-photo-1051449.jpeg",
+      "description": "Moments of pure tranquility"
+    },
+    {
+      "id": "anxiety_1",
+      "title": "Anxiety Relief",
+      "duration": 840,
+      "genre": "Anxiety",
+      "imageUrl": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg",
+      "description": "Gentle support for anxious moments"
+    },
+    {
+      "id": "anxiety_2",
+      "title": "Safe Harbor",
+      "duration": 780,
+      "genre": "Anxiety",
+      "imageUrl": "https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg",
+      "description": "Find your safe space"
+    },
+    {
+      "id": "anxiety_3",
+      "title": "Grounding Practice",
+      "duration": 720,
+      "genre": "Anxiety",
+      "imageUrl": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg",
+      "description": "Stay present and grounded"
+    },
+    {
+      "id": "anxiety_4",
+      "title": "Gentle Presence",
+      "duration": 900,
+      "genre": "Anxiety",
+      "imageUrl": "https://images.pexels.com/photos/1051449/pexels-photo-1051449.jpeg",
+      "description": "Soft sounds for anxious minds"
+    },
+    {
+      "id": "relaxation_1",
+      "title": "Deep Relaxation",
+      "duration": 900,
+      "genre": "Relaxation",
+      "imageUrl": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
+      "description": "Complete body and mind relaxation"
+    },
+    {
+      "id": "relaxation_2",
+      "title": "Peaceful Evening",
+      "duration": 840,
+      "genre": "Relaxation",
+      "imageUrl": "https://images.pexels.com/photos/1051449/pexels-photo-1051449.jpeg",
+      "description": "Wind down your day"
+    },
+    {
+      "id": "relaxation_3",
+      "title": "Serene Moments",
+      "duration": 780,
+      "genre": "Relaxation",
+      "imageUrl": "https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg",
+      "description": "Find your serenity"
+    },
+    {
+      "id": "relaxation_4",
+      "title": "Calm Mind",
+      "duration": 720,
+      "genre": "Relaxation",
+      "imageUrl": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg",
+      "description": "Achieve perfect relaxation"
+    },
+    {
+      "id": "nature_1",
+      "title": "Forest Bath",
+      "duration": 900,
+      "genre": "Nature",
+      "imageUrl": "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg",
+      "description": "Immerse in forest sounds"
+    },
+    {
+      "id": "nature_2",
+      "title": "Ocean Waves",
+      "duration": 840,
+      "genre": "Nature",
+      "imageUrl": "https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg",
+      "description": "Rhythmic ocean sounds"
+    },
+    {
+      "id": "nature_3",
+      "title": "Mountain Stream",
+      "duration": 780,
+      "genre": "Nature",
+      "imageUrl": "https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg",
+      "description": "Fresh mountain air"
+    },
+    {
+      "id": "nature_4",
+      "title": "Rain Sounds",
+      "duration": 720,
+      "genre": "Nature",
+      "imageUrl": "https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg",
+      "description": "Soothing rain ambiance"
+    },
+    {
+      "id": "ambient_1",
+      "title": "Space Dreams",
+      "duration": 900,
+      "genre": "Ambient",
+      "imageUrl": "https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg",
+      "description": "Drift in space"
+    },
+    {
+      "id": "ambient_2",
+      "title": "Floating",
+      "duration": 840,
+      "genre": "Ambient",
+      "imageUrl": "https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg",
+      "description": "Weightless ambient sounds"
+    },
+    {
+      "id": "ambient_3",
+      "title": "Ethereal",
+      "duration": 780,
+      "genre": "Ambient",
+      "imageUrl": "https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg",
+      "description": "Other-worldly ambiance"
+    },
+    {
+      "id": "ambient_4",
+      "title": "Deep Space",
+      "duration": 720,
+      "genre": "Ambient",
+      "imageUrl": "https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg",
+      "description": "Journey through the cosmos"
+    },
+    {
+      "id": "breathwork_1",
+      "title": "Deep Breathing",
+      "duration": 600,
+      "genre": "Breathwork",
+      "imageUrl": "https://images.pexels.com/photos/3094230/pexels-photo-3094230.jpeg",
+      "description": "Guided deep breathing"
+    },
+    {
+      "id": "breathwork_2",
+      "title": "Box Breathing",
+      "duration": 480,
+      "genre": "Breathwork",
+      "imageUrl": "https://images.pexels.com/photos/3560044/pexels-photo-3560044.jpeg",
+      "description": "4-4-4-4 breathing technique"
+    },
+    {
+      "id": "breathwork_3",
+      "title": "Ocean Breath",
+      "duration": 720,
+      "genre": "Breathwork",
+      "imageUrl": "https://images.pexels.com/photos/1295138/pexels-photo-1295138.jpeg",
+      "description": "Ujjayi breathing practice"
+    },
+    {
+      "id": "breathwork_4",
+      "title": "Energy Breath",
+      "duration": 540,
+      "genre": "Breathwork",
+      "imageUrl": "https://images.pexels.com/photos/1472887/pexels-photo-1472887.jpeg",
+      "description": "Energizing breathing exercises"
+    },
+    {
+      "id": "healing_1",
+      "title": "Sound Bath",
+      "duration": 1200,
+      "genre": "Healing",
+      "imageUrl": "https://images.pexels.com/photos/4325478/pexels-photo-4325478.jpeg",
+      "description": "Healing sound frequencies"
+    },
+    {
+      "id": "healing_2",
+      "title": "Crystal Bowls",
+      "duration": 900,
+      "genre": "Healing",
+      "imageUrl": "https://images.pexels.com/photos/3328058/pexels-photo-3328058.jpeg",
+      "description": "Pure crystal bowl sounds"
+    },
+    {
+      "id": "healing_3",
+      "title": "Energy Cleanse",
+      "duration": 1080,
+      "genre": "Healing",
+      "imageUrl": "https://images.pexels.com/photos/4101143/pexels-photo-4101143.jpeg",
+      "description": "Clear and balance energy"
+    },
+    {
+      "id": "healing_4",
+      "title": "Chakra Balance",
+      "duration": 960,
+      "genre": "Healing",
+      "imageUrl": "https://images.pexels.com/photos/3094215/pexels-photo-3094215.jpeg",
+      "description": "Harmonize your chakras"
+    }
+  ],
+  "featured_albums": [
+    {
+      "id": "focus_album",
+      "title": "Deep Focus Collection",
+      "imageUrl": "https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg",
+      "description": "Enhance your concentration and productivity",
+      "totalDuration": 3240,
+      "trackCount": 4,
+      "genre": "Focus",
+      "tracks": ["focus_1", "focus_2", "focus_3", "focus_4"]
+    },
+    {
+      "id": "sleep_album",
+      "title": "Peaceful Sleep Journey",
+      "imageUrl": "https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg",
+      "description": "Your pathway to restful sleep",
+      "totalDuration": 4140,
+      "trackCount": 4,
+      "genre": "Sleep",
+      "tracks": ["sleep_1", "sleep_2", "sleep_3", "sleep_4"]
+    },
+    {
+      "id": "meditation_album",
+      "title": "Mindful Meditation",
+      "imageUrl": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
+      "description": "Journey into mindfulness",
+      "totalDuration": 3060,
+      "trackCount": 4,
+      "genre": "Meditation",
+      "tracks": ["meditation_1", "meditation_2", "meditation_3", "meditation_4"]
+    },
+    {
+      "id": "stress_album",
+      "title": "Stress Relief Suite",
+      "imageUrl": "https://images.pexels.com/photos/3560168/pexels-photo-3560168.jpeg",
+      "description": "Release your daily stress",
+      "totalDuration": 3240,
+      "trackCount": 4,
+      "genre": "Stress",
+      "tracks": ["stress_1", "stress_2", "stress_3", "stress_4"]
+    },
+    {
+      "id": "anxiety_album",
+      "title": "Calm & Courage",
+      "imageUrl": "https://images.pexels.com/photos/3807758/pexels-photo-3807758.jpeg",
+      "description": "Support for anxious moments",
+      "totalDuration": 3240,
+      "trackCount": 4,
+      "genre": "Anxiety",
+      "tracks": ["anxiety_1", "anxiety_2", "anxiety_3", "anxiety_4"]
+    },
+    {
+      "id": "relaxation_album",
+      "title": "Total Relaxation",
+      "imageUrl": "https://images.pexels.com/photos/3094230/pexels-photo-3094230.jpeg",
+      "description": "Complete relaxation journey",
+      "totalDuration": 3240,
+      "trackCount": 4,
+      "genre": "Relaxation",
+      "tracks": ["relaxation_1", "relaxation_2", "relaxation_3", "relaxation_4"]
+    },
+    {
+      "id": "nature_album",
+      "title": "Nature's Symphony",
+      "imageUrl": "https://images.pexels.com/photos/957024/forest-trees-perspective-bright-957024.jpeg",
+      "description": "Immerse in natural soundscapes",
+      "totalDuration": 3240,
+      "trackCount": 4,
+      "genre": "Nature",
+      "tracks": ["nature_1", "nature_2", "nature_3", "nature_4"]
+    },
+    {
+      "id": "ambient_album",
+      "title": "Ambient Journeys",
+      "imageUrl": "https://images.pexels.com/photos/1169754/pexels-photo-1169754.jpeg",
+      "description": "Ethereal ambient experiences",
+      "totalDuration": 3240,
+      "trackCount": 4,
+      "genre": "Ambient",
+      "tracks": ["ambient_1", "ambient_2", "ambient_3", "ambient_4"]
+    },
+    {
+      "id": "breathwork_album",
+      "title": "Breath Mastery",
+      "imageUrl": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
+      "description": "Guide to conscious breathing",
+      "totalDuration": 2340,
+      "trackCount": 4,
+      "genre": "Breathwork",
+      "tracks": ["breathwork_1", "breathwork_2", "breathwork_3", "breathwork_4"]
+    },
+    {
+      "id": "healing_album",
+      "title": "Healing Frequencies",
+      "imageUrl": "https://images.pexels.com/photos/3822622/pexels-photo-3822622.jpeg",
+      "description": "Sound healing journey",
+      "totalDuration": 4140,
+      "trackCount": 4,
+      "genre": "Healing",
+      "tracks": ["healing_1", "healing_2", "healing_3", "healing_4"]
+    }
+  ]
+}

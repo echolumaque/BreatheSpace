@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		460FC9C02D48AF3500E03590 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = 460FC9BF2D48AF3500E03590 /* Inject */; };
+		4624A0EB2D4BADFF00BFE452 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4624A0CC2D4BA91700BFE452 /* WidgetKit.framework */; };
+		4624A0EC2D4BADFF00BFE452 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4624A0CE2D4BA91700BFE452 /* SwiftUI.framework */; };
+		4624A0FD2D4BAE0000BFE452 /* BreatheSpaceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4624A0EA2D4BADFF00BFE452 /* BreatheSpaceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		460FC9942D488B5200E03590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FC9792D488B4D00E03590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FC9802D488B4D00E03590;
+			remoteInfo = BreatheSpace;
+		};
+		460FC99E2D488B5200E03590 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FC9792D488B4D00E03590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 460FC9802D488B4D00E03590;
+			remoteInfo = BreatheSpace;
+		};
+		4624A0FB2D4BAE0000BFE452 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 460FC9792D488B4D00E03590 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4624A0E92D4BADFF00BFE452;
+			remoteInfo = BreatheSpaceWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4624A0E52D4BA91900BFE452 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4624A0FD2D4BAE0000BFE452 /* BreatheSpaceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		460FC9812D488B4D00E03590 /* BreatheSpace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreatheSpace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FC9932D488B5200E03590 /* BreatheSpaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreatheSpaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		460FC99D2D488B5200E03590 /* BreatheSpaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreatheSpaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4624A0CC2D4BA91700BFE452 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4624A0CE2D4BA91700BFE452 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4624A0EA2D4BADFF00BFE452 /* BreatheSpaceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BreatheSpaceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4624A0FE2D4BAE0000BFE452 /* Exceptions for "BreatheSpaceWidget" folder in "BreatheSpaceWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4624A0E92D4BADFF00BFE452 /* BreatheSpaceWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		460FC9832D488B4D00E03590 /* BreatheSpace */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreatheSpace;
+			sourceTree = "<group>";
+		};
+		460FC9962D488B5200E03590 /* BreatheSpaceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreatheSpaceTests;
+			sourceTree = "<group>";
+		};
+		460FC9A02D488B5200E03590 /* BreatheSpaceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BreatheSpaceUITests;
+			sourceTree = "<group>";
+		};
+		4624A0ED2D4BADFF00BFE452 /* BreatheSpaceWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4624A0FE2D4BAE0000BFE452 /* Exceptions for "BreatheSpaceWidget" folder in "BreatheSpaceWidgetExtension" target */,
+			);
+			path = BreatheSpaceWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		460FC97E2D488B4D00E03590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				460FC9C02D48AF3500E03590 /* Inject in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FC9902D488B5200E03590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FC99A2D488B5200E03590 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4624A0E72D4BADFF00BFE452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4624A0EC2D4BADFF00BFE452 /* SwiftUI.framework in Frameworks */,
+				4624A0EB2D4BADFF00BFE452 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		460FC9782D488B4D00E03590 = {
+			isa = PBXGroup;
+			children = (
+				460FC9832D488B4D00E03590 /* BreatheSpace */,
+				460FC9962D488B5200E03590 /* BreatheSpaceTests */,
+				460FC9A02D488B5200E03590 /* BreatheSpaceUITests */,
+				4624A0ED2D4BADFF00BFE452 /* BreatheSpaceWidget */,
+				4624A0CB2D4BA91700BFE452 /* Frameworks */,
+				460FC9822D488B4D00E03590 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		460FC9822D488B4D00E03590 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				460FC9812D488B4D00E03590 /* BreatheSpace.app */,
+				460FC9932D488B5200E03590 /* BreatheSpaceTests.xctest */,
+				460FC99D2D488B5200E03590 /* BreatheSpaceUITests.xctest */,
+				4624A0EA2D4BADFF00BFE452 /* BreatheSpaceWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4624A0CB2D4BA91700BFE452 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4624A0CC2D4BA91700BFE452 /* WidgetKit.framework */,
+				4624A0CE2D4BA91700BFE452 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		460FC9802D488B4D00E03590 /* BreatheSpace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FC9A72D488B5200E03590 /* Build configuration list for PBXNativeTarget "BreatheSpace" */;
+			buildPhases = (
+				460FC97D2D488B4D00E03590 /* Sources */,
+				460FC97E2D488B4D00E03590 /* Frameworks */,
+				460FC97F2D488B4D00E03590 /* Resources */,
+				4624A0E52D4BA91900BFE452 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4624A0FC2D4BAE0000BFE452 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				460FC9832D488B4D00E03590 /* BreatheSpace */,
+			);
+			name = BreatheSpace;
+			packageProductDependencies = (
+				460FC9BF2D48AF3500E03590 /* Inject */,
+			);
+			productName = BreatheSpace;
+			productReference = 460FC9812D488B4D00E03590 /* BreatheSpace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		460FC9922D488B5200E03590 /* BreatheSpaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FC9AA2D488B5200E03590 /* Build configuration list for PBXNativeTarget "BreatheSpaceTests" */;
+			buildPhases = (
+				460FC98F2D488B5200E03590 /* Sources */,
+				460FC9902D488B5200E03590 /* Frameworks */,
+				460FC9912D488B5200E03590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FC9952D488B5200E03590 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				460FC9962D488B5200E03590 /* BreatheSpaceTests */,
+			);
+			name = BreatheSpaceTests;
+			packageProductDependencies = (
+			);
+			productName = BreatheSpaceTests;
+			productReference = 460FC9932D488B5200E03590 /* BreatheSpaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		460FC99C2D488B5200E03590 /* BreatheSpaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 460FC9AD2D488B5200E03590 /* Build configuration list for PBXNativeTarget "BreatheSpaceUITests" */;
+			buildPhases = (
+				460FC9992D488B5200E03590 /* Sources */,
+				460FC99A2D488B5200E03590 /* Frameworks */,
+				460FC99B2D488B5200E03590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				460FC99F2D488B5200E03590 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				460FC9A02D488B5200E03590 /* BreatheSpaceUITests */,
+			);
+			name = BreatheSpaceUITests;
+			packageProductDependencies = (
+			);
+			productName = BreatheSpaceUITests;
+			productReference = 460FC99D2D488B5200E03590 /* BreatheSpaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4624A0E92D4BADFF00BFE452 /* BreatheSpaceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4624A0FF2D4BAE0000BFE452 /* Build configuration list for PBXNativeTarget "BreatheSpaceWidgetExtension" */;
+			buildPhases = (
+				4624A0E62D4BADFF00BFE452 /* Sources */,
+				4624A0E72D4BADFF00BFE452 /* Frameworks */,
+				4624A0E82D4BADFF00BFE452 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4624A0ED2D4BADFF00BFE452 /* BreatheSpaceWidget */,
+			);
+			name = BreatheSpaceWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = BreatheSpaceWidgetExtension;
+			productReference = 4624A0EA2D4BADFF00BFE452 /* BreatheSpaceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		460FC9792D488B4D00E03590 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					460FC9802D488B4D00E03590 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					460FC9922D488B5200E03590 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 460FC9802D488B4D00E03590;
+					};
+					460FC99C2D488B5200E03590 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 460FC9802D488B4D00E03590;
+					};
+					4624A0E92D4BADFF00BFE452 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 460FC97C2D488B4D00E03590 /* Build configuration list for PBXProject "BreatheSpace" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 460FC9782D488B4D00E03590;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				460FC9BE2D48AF3500E03590 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 460FC9822D488B4D00E03590 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				460FC9802D488B4D00E03590 /* BreatheSpace */,
+				460FC9922D488B5200E03590 /* BreatheSpaceTests */,
+				460FC99C2D488B5200E03590 /* BreatheSpaceUITests */,
+				4624A0E92D4BADFF00BFE452 /* BreatheSpaceWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		460FC97F2D488B4D00E03590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FC9912D488B5200E03590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FC99B2D488B5200E03590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4624A0E82D4BADFF00BFE452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460FC97D2D488B4D00E03590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FC98F2D488B5200E03590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		460FC9992D488B5200E03590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4624A0E62D4BADFF00BFE452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		460FC9952D488B5200E03590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FC9802D488B4D00E03590 /* BreatheSpace */;
+			targetProxy = 460FC9942D488B5200E03590 /* PBXContainerItemProxy */;
+		};
+		460FC99F2D488B5200E03590 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 460FC9802D488B4D00E03590 /* BreatheSpace */;
+			targetProxy = 460FC99E2D488B5200E03590 /* PBXContainerItemProxy */;
+		};
+		4624A0FC2D4BAE0000BFE452 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4624A0E92D4BADFF00BFE452 /* BreatheSpaceWidgetExtension */;
+			targetProxy = 4624A0FB2D4BAE0000BFE452 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		460FC9A52D488B5200E03590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		460FC9A62D488B5200E03590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		460FC9A82D488B5200E03590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreatheSpace/Preview Content\"";
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BreatheSpace;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Xlinker",
+					"-interposable",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		460FC9A92D488B5200E03590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BreatheSpace/Preview Content\"";
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BreatheSpace;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN = YES;
+				SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES = YES;
+				SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS = YES;
+				SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS = YES;
+				SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES = YES;
+				SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		460FC9AB2D488B5200E03590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreatheSpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreatheSpace";
+			};
+			name = Debug;
+		};
+		460FC9AC2D488B5200E03590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BreatheSpace.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BreatheSpace";
+			};
+			name = Release;
+		};
+		460FC9AE2D488B5200E03590 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = BreatheSpace;
+			};
+			name = Debug;
+		};
+		460FC9AF2D488B5200E03590 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = BreatheSpace;
+			};
+			name = Release;
+		};
+		4624A1002D4BAE0000BFE452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BreatheSpaceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BreatheSpaceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpace.BreatheSpaceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4624A1012D4BAE0000BFE452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CFKFBBWYX6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BreatheSpaceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BreatheSpaceWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.choerider.BreatheSpace.BreatheSpaceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		460FC97C2D488B4D00E03590 /* Build configuration list for PBXProject "BreatheSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FC9A52D488B5200E03590 /* Debug */,
+				460FC9A62D488B5200E03590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FC9A72D488B5200E03590 /* Build configuration list for PBXNativeTarget "BreatheSpace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FC9A82D488B5200E03590 /* Debug */,
+				460FC9A92D488B5200E03590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FC9AA2D488B5200E03590 /* Build configuration list for PBXNativeTarget "BreatheSpaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FC9AB2D488B5200E03590 /* Debug */,
+				460FC9AC2D488B5200E03590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		460FC9AD2D488B5200E03590 /* Build configuration list for PBXNativeTarget "BreatheSpaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				460FC9AE2D488B5200E03590 /* Debug */,
+				460FC9AF2D488B5200E03590 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4624A0FF2D4BAE0000BFE452 /* Build configuration list for PBXNativeTarget "BreatheSpaceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4624A1002D4BAE0000BFE452 /* Debug */,
+				4624A1012D4BAE0000BFE452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		460FC9BE2D48AF3500E03590 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		460FC9BF2D48AF3500E03590 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 460FC9BE2D48AF3500E03590 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 460FC9792D488B4D00E03590 /* Project object */;
+}
